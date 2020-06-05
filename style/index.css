@@ -73,7 +73,7 @@ p {
 
 header{
     width: 100%;
-    margin: 3% 0;
+    margin: 5% 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -86,6 +86,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.banner-img{
+    background-image: url(https://raw.githubusercontent.com/deborah-w32/web-Sprint-Challenge-User-Interface-and-Git/master/img/jumbo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 5%;
 }
 
 .top-content {
