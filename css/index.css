@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+header{
+    width: 100%;
+    margin: 5% 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header img{
+    width: 25%;
+}
+nav{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+header nav a:hover{
+    color: #F7441B;
+}
+
+.banner-img{
+    background-image: url(https://raw.githubusercontent.com/deborah-w32/web-Sprint-Challenge-User-Interface-and-Git/master/img/jumbo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +137,122 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-one{
+    background-color: teal;
+    color: white;
+}
+
+.box-two{
+    background-color: gold;
+    color: white;
+}
+
+.box-three{
+    background-color: cadetblue;
+    color: white;
+}
+
+.box-four{
+    background-color: coral;
+    color: white;
+}
+
+.box-five{
+    background-color: crimson;
+    color: white;
+}
+
+.box-six{
+    background-color: forestgreen;
+    color: white;
+}
+
+.box-seven{
+    background-color: darkorchid;
+    color: white;
+}
+
+.box-eight{
+    background-color: hotpink;
+    color: white;
+}
+
+.box-nine{
+    background-color: indigo;
+    color: white;
+}
+
+.box-ten{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.box-one:hover{
+    color: teal;
+    background-color: white;
+    border: 2px solid teal;
+}
+
+.box-two:hover{
+    color: gold;
+    background-color: white;
+    border: 2px solid gold;
+}
+
+.box-three:hover{
+    color: cadetblue;
+    background-color: white;
+    border: 2px solid cadetblue;
+}
+
+.box-four:hover{
+    color: coral;
+    background-color: white;
+    border: 2px solid coral;
+}
+
+.box-five:hover{
+    color: crimson;
+    background-color: white;
+    border: 2px solid crimson;
+}
+
+.box-six:hover{
+    color: forestgreen;
+    background-color: white;
+    border: 2px solid forestgreen;
+
+}
+
+.box-seven:hover{
+    color: darkorchid;
+    background-color: white;
+    border: 2px solid darkorchid;
+}
+
+.box-eight:hover{
+    color: hotpink;
+    background-color: white;
+    border: 2px solid hotpink;
+
+}
+
+.box-nine:hover{
+    color: indigo;
+    background-color: white;
+    border: 2px solid indigo;
+}
+
+.box-ten:hover{
+    color: dodgerblue;
+    background-color: white;
+    border: 2px solid dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +286,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    color: #F7441B;
 }
